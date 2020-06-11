@@ -41,10 +41,127 @@
 .navigation-item :first-child {
     margin: 0;
 }
-.navigation-item: :first-child {
-    margin: 0;
+.first-screen {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
 }
+.first-screen p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 175px;
+}
+.first-screen h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    height: 111px;
+    width: 829px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+} 
+.first-screen button {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    justify-content: center;
+}
+.services {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.services h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    width: 600px;
+    height: 88px;
+    margin-top: 110px;
+}
+.services p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    width: 600px;
+    height: 41px;   
+}
+.group {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    margin-left: -50px;
+  }
+.elips1 {
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0 50px;
+    }
+.elips {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #4985FF;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0 50px;
 
+}
+.services-img {
+    display: flex;
+    left: 0%;
+    right: 0%;
+    justify-content: center;
+    flex: 1 1 auto;
+     margin: 0 50px;
+}
+.text-items {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+   
+}
+.text-items h1 {
+    display: flex;
+    justify-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    width: 226px;
+    height: 23px;
+}
+.text-items p {
+    display: flex;
+    justify-items: center;
+    font-size: 14px;
+    line-height: 22px;
+}
  /* Добавочные стили */
 .container {
     max-width: 1100px;
